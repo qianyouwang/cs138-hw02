@@ -16,7 +16,7 @@ digraph {
   q1 -> q2 [label = "1"];
   q2 -> q3 [label = "0"];
   q2 -> q2 [label = "1"];
-  q3 -> q3 [label = "0"];
+  q3 -> q2 [label = "0"];
   q3 -> q4 [label = "1"];
   q4 -> q7 [label = "0"];
   q4 -> q2 [label = "1"];

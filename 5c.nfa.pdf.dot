@@ -5,5 +5,4 @@ digraph {
 
   __start -> q0 [arrowhead = empty];
   q0 -> q1 [label = "a"];
-  q1 -> q1 [label = "ε"];
 }
