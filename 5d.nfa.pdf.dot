@@ -1,0 +1,7 @@
+digraph {
+  node [shape=point]; __start;
+  node [shape = doublecircle]; q0;
+
+  __start -> q0 [arrowhead = empty];
+  q0 -> q0 [label = "ε"];
+}
