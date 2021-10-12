@@ -5,12 +5,20 @@ digraph {
   node [shape = circle]; q2;
   node [shape = circle]; q3;
   node [shape = circle]; q4;
+  node [shape = circle]; q5;
+  node [shape = circle]; q6;
+  node [shape = circle]; q7;
+  node [shape = circle]; q8;
 
   __start -> q0 [arrowhead = empty];
   q0 -> q2 [label = "a"];
-  q1 -> q0 [label = "ε"];
   q1 -> q1 [label = "b"];
   q2 -> q3 [label = "a"];
   q3 -> q4 [label = "a"];
-  q4 -> q1 [label = "b"];
+  q4 -> q5 [label = "b"];
+  q5 -> q6 [label = "a"];
+  q5 -> q5 [label = "b"];
+  q6 -> q7 [label = "a"];
+  q7 -> q8 [label = "a"];
+  q8 -> q1 [label = "b"];
 }

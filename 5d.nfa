@@ -2,4 +2,4 @@ alphabet: {_}
 start: q0
 accepting: {q0}
 
-q0 (_->q0)
+q0
